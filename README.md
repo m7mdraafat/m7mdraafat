@@ -34,6 +34,11 @@
 - :thinking: I’m currently open for a new `job opportunity`, this is [MY RESUME]().
 <br>
 
+## 🐍 A Snake Eating my Contributions Graph
+
+<p align="center">
+  <img src="https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg" alt="Snake Game"/>
+</p>
 
 ## <picture> <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/competitive_programming_profile.png?raw=true" width=40> </picture> My Competitive Programming Profiles
 
@@ -283,9 +288,5 @@
 
 </br></br>
 	
-## 🐍 A Snake Eating my Contributions Graph
 
-<p align="center">
-  <img src="https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg" alt="Snake Game"/>
-</p>
 
