@@ -27,6 +27,7 @@
 <br><br>
 
 - :school: I am a `Junior` at [Faculty of Computers & Informatics](https://ci.tanta.edu.eg/) at [Tanta University].
+- :man_office_worker: I'm Software Engineer Intern @ Microsoft
 - :technologist: I love using Software as a solution for every `Problem`.
 - :computer: I am a competitive programmer at `Codeforces`, `Leetcode`.
 - :student: I’m currently learning `Computer Science` and `Web Development`.
