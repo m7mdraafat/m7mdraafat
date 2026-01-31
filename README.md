@@ -96,33 +96,6 @@
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="35" /> &nbsp;GitHub Statistics
-
-<div align="center">
-
-<!-- DARK GITHUB STATS -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=m7mdraafat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c0c0c0&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=m7mdraafat&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1a1a2e&ring=58a6ff&fire=c0c0c0&currStreakNum=ffffff&sideNums=8b949e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak"/>
-
-<br><br>
-
-<!-- CONTRIBUTION SNAKE -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br><br>
-
-<!-- DARK ACTIVITY GRAPH -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=m7mdraafat&bg_color=0d1117&color=8b949e&line=58a6ff&point=c0c0c0&area_color=1a1a2e&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
-
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
 ## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="35"> &nbsp;Tech Stack
 
 <div align="center">
