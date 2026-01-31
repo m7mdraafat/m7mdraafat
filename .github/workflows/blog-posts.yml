@@ -1,0 +1,26 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Runs every 6 hours
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull in Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # Add your blog RSS feed URLs here (comma-separated)
+          feed_list: "https://dev.to/feed/m7mdraafat,https://medium.com/feed/@m7mdraafat"
+          max_post_count: 5
+          readme_path: ./README.md
+          comment_tag_name: "BLOG-POST-LIST"
+          commit_message: "📝 Updated blog posts"
+          committer_username: "github-actions[bot]"
+          committer_email: "github-actions[bot]@users.noreply.github.com"
