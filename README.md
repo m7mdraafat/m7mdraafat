@@ -1,338 +1,459 @@
+<!-- 
+  ███╗   ███╗ ██████╗ ██╗  ██╗ █████╗ ███╗   ███╗███████╗██████╗ 
+  ████╗ ████║██╔═══██╗██║  ██║██╔══██╗████╗ ████║██╔════╝██╔══██╗
+  ██╔████╔██║██║   ██║███████║███████║██╔████╔██║█████╗  ██║  ██║
+  ██║╚██╔╝██║██║   ██║██╔══██║██╔══██║██║╚██╔╝██║██╔══╝  ██║  ██║
+  ██║ ╚═╝ ██║╚██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║███████╗██████╔╝
+  ╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═════╝ 
+-->
+
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Mohamed%20Raafat&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Software%20Engineer%20Intern%20@%20Microsoft%20|%20Full-Stack%20.NET%20Developer&descAlignY=52&descSize=18"/>
+<!-- HOLOGRAPHIC ANIMATED HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Mohamed%20Raafat&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=⚡%20Crafting%20Code%20|%20Breaking%20Limits%20|%20Building%20Dreams%20⚡&descAlignY=55&descSize=15&stroke=00FFFF&strokeWidth=2"/>
 
-<!-- Animated Typing SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%91%8B+Welcome+to+my+Digital+Universe!;%F0%9F%92%BB+Building+Solutions+with+.NET+%26+C%23;%F0%9F%8F%86+Competitive+Programmer+%7C+Problem+Solver;%F0%9F%8E%93+CS+Student+%40+Tanta+University" alt="Typing SVG" />
-</a>
-
-<!-- 3D Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=m7mdraafat&style=for-the-badge&color=0e75b6&label=PROFILE+VIEWS"/>
-
-<!-- Animated Snake -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
-</picture>
+<!-- MATRIX RAIN EFFECT BANNER -->
+<img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" width="100%" height="150">
 
 </div>
 
----
+<!-- GLITCH TEXT EFFECT -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=35&duration=3000&pause=500&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=120&lines=%3E_%20SYSTEM.BOOT();+DEVELOPER.INIT();%3E_%20LOADING_SKILLS...+[████████████]+100%25;%3E_%20READY_TO_INNOVATE.execute();" alt="Terminal" />
+</h1>
 
-<!-- About Me Section with 3D Effect -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-</div>
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" /> About Me
+<!-- NEON GLOW BADGES -->
+<a href="https://github.com/m7mdraafat"><img src="https://img.shields.io/badge/-%F0%9F%94%A5_MICROSOFT_INTERN-000?style=for-the-badge&logo=microsoft&logoColor=00ff00&labelColor=000&color=00ff00" /></a>
+<a href="https://github.com/m7mdraafat"><img src="https://img.shields.io/badge/-%F0%9F%9A%80_.NET_ARCHITECT-000?style=for-the-badge&logo=dotnet&logoColor=00d9ff&labelColor=000&color=00d9ff" /></a>
+<a href="https://github.com/m7mdraafat"><img src="https://img.shields.io/badge/-%F0%9F%8F%86_COMPETITIVE_CODER-000?style=for-the-badge&logo=codeforces&logoColor=ff00ff&labelColor=000&color=ff00ff" /></a>
 
-```yaml
-name: Mohamed Raafat
-located_in: Egypt 🇪🇬
-current_role: Software Engineer Intern @ Microsoft
-education:
-  degree: Bachelor's in Computer Science
-  university: Faculty of Computers & Informatics, Tanta University
-  level: Junior Student
+<br><br>
 
-fields_of_interest:
-  - Full-Stack Development
-  - Backend Engineering
-  - Competitive Programming
-  - Problem Solving
-
-currently_learning:
-  - Advanced .NET Patterns
-  - Cloud Architecture
-  - System Design
-
-hobbies:
-  - Solving Algorithmic Challenges
-  - Building Scalable Applications
-  - Contributing to Open Source
-
-fun_fact: "I debug code with coffee ☕ and solve problems for breakfast 🧠"
+<!-- CYBERPUNK PROFILE CARD -->
+```diff
+@@                    ╔═══════════════════════════════════════════════════════╗                    @@
+@@                    ║  > IDENTITY: Mohamed Raafat                           ║                    @@
+@@                    ║  > ALIAS: m7mdraafat                                  ║                    @@
+@@                    ║  > LOCATION: Egypt 🇪🇬                                 ║                    @@
+@@                    ║  > STATUS: Online & Coding                            ║                    @@
+@@                    ║  > MISSION: Building the Future with .NET             ║                    @@
+@@                    ╚═══════════════════════════════════════════════════════╝                    @@
 ```
 
----
-
-## <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30"> Connect With Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-raafat-701290252/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/m7mdraafat)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m7mdraafat2003@gmail.com)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100084236323114)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201503755070)
-[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/11H9zUuqhxE4o3uRx2HzO31IM9aPRFmQH/view?usp=sharing)
+<!-- ANIMATED WAVE -->
+<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%"/>
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/212284145-bf2c01a8-c448-4f1a-b911-996024c84606.gif" width="30"> Tech Stack & Skills
-
+<!-- INTERACTIVE TERMINAL SIMULATOR -->
 <div align="center">
 
-### 🖥️ Programming Languages
-<p>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-</p>
+## <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="35"> HACK THE MATRIX
 
-### 🌐 Full-Stack Development
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-</p>
+```javascript
+class MohamedRaafat extends Developer {
+    constructor() {
+        this.name = "Mohamed Raafat";
+        this.title = "Software Engineer Intern @ Microsoft";
+        this.location = "Egypt 🇪🇬";
+        this.education = "CS @ Tanta University";
+        this.currentlyLearning = ["Cloud Architecture", "System Design", "Microservices"];
+        this.funFact = "I can debug code in my dreams! 💭";
+    }
 
-### 🗄️ Database & ORM
-<p>
-  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/Entity_Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/LINQ-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-</p>
+    get skills() {
+        return {
+            languages: ["C", "C++", "C#", "JavaScript", "SQL"],
+            backend: ["ASP.NET Core", "Entity Framework", "LINQ", "REST APIs"],
+            databases: ["SQL Server", "PostgreSQL"],
+            architecture: ["Clean Architecture", "SOLID", "Design Patterns"],
+            tools: ["Git", "Docker", "Azure", "Visual Studio"],
+        };
+    }
 
-### 🛠️ Tools & Platforms
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white" />
-</p>
-
-### 💡 Principles & Patterns
-<p>
-  <img src="https://img.shields.io/badge/SOLID-000000?style=for-the-badge&logo=solid&logoColor=white" />
-  <img src="https://img.shields.io/badge/Design_Patterns-FF6F00?style=for-the-badge&logo=blueprint&logoColor=white" />
-  <img src="https://img.shields.io/badge/Clean_Architecture-16a085?style=for-the-badge&logo=architecture&logoColor=white" />
-</p>
-
-### 🖥️ Operating Systems
-<p>
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
-</p>
+    get dailyRoutine() {
+        return [
+            "☕ Coffee.drink()",
+            "💻 Code.write()",
+            "🐛 Bugs.crush()",
+            "🔄 Repeat.infinitely()",
+        ];
+    }
+}
+```
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="30"> Competitive Programming
-
+<!-- SKILL PROGRESS BARS WITH NEON EFFECT -->
 <div align="center">
 
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> POWER LEVELS
+
+<img src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=m7mdraafat&skills=C%23,JavaScript,C%2B%2B,C,HTML,CSS&width=820&bg=0D1117&branding=false" />
+
+<br>
+
+<!-- CUSTOM ANIMATED SKILL BARS -->
 <table>
-  <tr>
-    <td align="center">
-      <a href="https://codeforces.com/profile/mohamedraafat1">
-        <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
-        <br>
-        <img src="https://codeforces-readme-stats.vercel.app/api/card?username=mohamedraafat1&theme=github_dark&force_username=true&border_color=404040" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://leetcode.com/u/mo_raafat/">
-        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-        <br>
-        <img src="https://leetcard.jacoblin.cool/mo_raafat?theme=dark&font=Fira%20Code&ext=heatmap" width="400"/>
-      </a>
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+
+```text
+C#/.NET        ████████████████████░░   95%
+SQL Server     ███████████████████░░░   90%
+ASP.NET Core   ██████████████████░░░░   85%
+Entity Framework ████████████████░░░░   80%
+JavaScript     ██████████████░░░░░░░░   70%
+System Design  █████████████░░░░░░░░░   65%
+```
+
+</td>
+<td width="50%">
+
+```text
+🏆 Problem Solving    [■■■■■■■■■■] 100%
+🎯 Clean Architecture [■■■■■■■■■░]  95%
+⚡ Performance        [■■■■■■■■░░]  85%
+🔒 Security          [■■■■■■■░░░]  75%
+☁️ Cloud Services    [■■■■■■░░░░]  65%
+🤖 AI/ML             [■■■■░░░░░░]  45%
+```
+
+</td>
+</tr>
 </table>
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="30" /> GitHub Analytics
-
+<!-- 3D HOLOGRAPHIC TECH STACK -->
 <div align="center">
 
-<!-- GitHub Stats Cards -->
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> TECH ARSENAL
+
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,dotnet,visualstudio,vscode,git,github,azure,docker,postman,linux,windows&theme=dark&perline=7" />
+
+<br><br>
+
+<!-- ANIMATED TECH CARDS -->
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="65" height="65" alt="C#" />
+<br><b>C#</b>
+<br><sub>Primary Weapon</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="65" height="65" alt="REST API" />
+<br><b>REST APIs</b>
+<br><sub>Communication</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="GitHub" />
+<br><b>GitHub</b>
+<br><sub>Version Control</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65" height="65" alt="Docker" />
+<br><b>Docker</b>
+<br><sub>Containerization</sub>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<!-- COMPETITIVE PROGRAMMING ARENA -->
+<div align="center">
+
+## <img src="https://media.giphy.com/media/SS8CV2rQdlYNLtBCiF/giphy.gif" width="35"> BATTLE ARENA
+
+<table>
+<tr>
+<td align="center">
+
+### ⚔️ Codeforces
+<a href="https://codeforces.com/profile/mohamedraafat1">
+<img src="https://codeforces-readme-stats.vercel.app/api/card?username=mohamedraafat1&theme=github_dark&force_username=true&border_color=39FF14" width="400"/>
+</a>
+
+</td>
+<td align="center">
+
+### 🎯 LeetCode
+<a href="https://leetcode.com/u/mo_raafat/">
+<img src="https://leetcard.jacoblin.cool/mo_raafat?theme=dark&font=Fira%20Code&ext=heatmap&border=1&border_color=39FF14" width="400"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  🏅 ACHIEVEMENTS UNLOCKED                                                    ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║  [✓] Problem Solving Enthusiast    [✓] Algorithm Master                     ║
+║  [✓] Data Structure Wizard         [✓] Competitive Programmer               ║
+║  [✓] Daily Streak Warrior          [✓] Never Give Up                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+<!-- GITHUB STATS WITH HOLOGRAPHIC EFFECT -->
+<div align="center">
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> DAMAGE STATISTICS
+
 <p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=m7mdraafat&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m7mdraafat&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=m7mdraafat&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=FFFFFF&ring_color=39FF14" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=m7mdraafat&theme=radical&hide_border=true&background=0D1117&stroke=39FF14&ring=39FF14&fire=FF6B6B&currStreakLabel=39FF14" />
 </p>
 
-<!-- GitHub Streak -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=m7mdraafat&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" />
+<!-- ANIMATED CONTRIBUTION SNAKE -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
+</picture>
 
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=m7mdraafat&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true" />
-
-<!-- GitHub Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=5" />
-
-</div>
-
----
-
-## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="30" /> 3D Contribution Calendar
-
-<div align="center">
-
-![3D Contrib](./profile-3d-contrib/profile-night-rainbow.svg)
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=m7mdraafat&custom_title=Mohamed's%20Contribution%20Graph&bg_color=0D1117&color=39FF14&line=39FF14&point=FFFFFF&area_color=39FF14&title_color=39FF14&area=true&hide_border=true" width="100%"/>
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece53f.gif" width="30" /> Advanced Metrics
-
+<!-- 3D CONTRIBUTION SKYLINE -->
 <div align="center">
 
-<!-- Main Metrics -->
-<img src="./metrics/github-metrics.svg" alt="GitHub Metrics" />
+## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ber/giphy.gif" width="35"> 3D WORLD
 
-<!-- Achievements -->
+<a href="https://skyline.github.com/m7mdraafat/2025" title="2025 GitHub Skyline">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contrib" width="100%"/>
+</a>
+
+<!-- GITHUB SKYLINE ANIMATION -->
+```
+             ████                    █████████
+           ████████                ████████████
+         ██████████████          ████████████████
+       ██████████████████      ████████████████████
+      ████████████████████    ██████████████████████
+    ████████████████████████████████████████████████████
+   ██████████████████████████████████████████████████████
+  ████████████████████████████████████████████████████████
+  ████████████████████  MY GITHUB SKYLINE  ████████████████
+```
+
+</div>
+
+---
+
+<!-- TROPHIES WITH GLOW -->
+<div align="center">
+
+## <img src="https://media.giphy.com/media/lnaoFsW1G8kpzHxFjU/giphy.gif" width="35"> TROPHY CABINET
+
+<img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
+
+</div>
+
+---
+
+<!-- ADVANCED METRICS -->
+<div align="center">
+
+## <img src="https://user-images.githubusercontent.com/74038190/212750147-854a394f-fee9-4080-9770-78a4b7ece53f.gif" width="35"> SYSTEM ANALYTICS
+
+<table>
+<tr>
+<td>
+<img src="./metrics/github-metrics.svg" alt="Metrics" />
+</td>
+<td>
 <img src="./metrics/achievements.svg" alt="Achievements" />
-
-<!-- Coding Habits -->
-<img src="./metrics/habits.svg" alt="Coding Habits" />
-
-<!-- Notable Contributions -->
-<img src="./metrics/notable.svg" alt="Notable Contributions" />
-
-<!-- Stargazers -->
-<img src="./metrics/stargazers.svg" alt="Stargazers" />
+</td>
+</tr>
+<tr>
+<td>
+<img src="./metrics/habits.svg" alt="Habits" />
+</td>
+<td>
+<img src="./metrics/notable.svg" alt="Notable" />
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="30" /> ⏱️ WakaTime Stats
-
+<!-- WAKATIME STATS -->
 <div align="center">
+
+## <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="35"> TIME IN THE MATRIX
 
 <!--START_SECTION:waka-->
 ```text
-🕐 Coding Stats Loading...
+⌛ Time Zone: Africa/Cairo (UTC+2)
 
-Setup WakaTime to see your coding stats here!
-1. Install WakaTime extension in your IDE
-2. Get your API key from wakatime.com
-3. Add WAKATIME_API_KEY to repository secrets
+💻 This Week's Coding Stats Loading...
+
+> Install WakaTime to track your coding journey!
 ```
 <!--END_SECTION:waka-->
 
-<a href="https://wakatime.com/@m7mdraafat">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=m7mdraafat&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact" alt="WakaTime Stats" />
-</a>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=m7mdraafat&theme=radical&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=FFFFFF&layout=compact" />
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="30" /> 📝 Latest Blog Posts
-
+<!-- SPOTIFY NOW PLAYING -->
 <div align="center">
+
+## <img src="https://media.giphy.com/media/LwBuVHh34nnCPD5UVD/giphy.gif" width="35"> NOW PLAYING
+
+[![Spotify](https://novatorem-m7mdraafat.vercel.app/api/spotify?background_color=0d1117&border_color=39FF14)](https://open.spotify.com/user/m7mdraafat)
+
+</div>
+
+---
+
+<!-- BLOG POSTS -->
+<div align="center">
+
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="35"> LATEST TRANSMISSIONS
 
 <!-- BLOG-POST-LIST:START -->
-- 🚀 Coming soon! Follow me on [Dev.to](https://dev.to/m7mdraafat) or [Medium](https://medium.com/@m7mdraafat) for new posts!
+📡 **Incoming transmission...** Stay tuned for tech articles!
+- 🚀 [Follow me on Dev.to](https://dev.to/m7mdraafat)
+- ✍️ [Read on Medium](https://medium.com/@m7mdraafat)
 <!-- BLOG-POST-LIST:END -->
-
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/m7mdraafat)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@m7mdraafat)
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/235294016-a3ad1bca-9e04-4293-b1d6-e0706729ec05.gif" width="30"> Currently
-
+<!-- DAILY DEV QUOTE WITH GLITCH -->
 <div align="center">
 
-```text
-🔭 Working on      → Building scalable .NET applications at Microsoft
-🌱 Learning        → Advanced Cloud Architecture & System Design
-👯 Looking for     → Open source collaboration & new opportunities
-💬 Ask me about    → C#, .NET, ASP.NET, SQL Server, Competitive Programming
-⚡ Fun fact        → I speak both human and programming languages fluently!
-🎯 2026 Goal       → Contribute more to Open Source projects
+## <img src="https://media.giphy.com/media/f6hnhHkks8bk4jwjh3/giphy.gif" width="35"> WISDOM FROM THE MATRIX
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=matrix&animation=grow_out_in&quoteCategory=programming" />
+
+</div>
+
+---
+
+<!-- CONNECT SECTION WITH NEON BUTTONS -->
+<div align="center">
+
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35"> ESTABLISH CONNECTION
+
+<a href="https://linkedin.com/in/mohamed-raafat-701290252">
+  <img src="https://img.shields.io/badge/-LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000"/>
+</a>
+<a href="mailto:m7mdraafat2003@gmail.com">
+  <img src="https://img.shields.io/badge/-GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000"/>
+</a>
+<a href="https://github.com/m7mdraafat">
+  <img src="https://img.shields.io/badge/-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000"/>
+</a>
+<a href="https://wa.me/201503755070">
+  <img src="https://img.shields.io/badge/-WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000"/>
+</a>
+<a href="https://facebook.com/profile.php?id=100084236323114">
+  <img src="https://img.shields.io/badge/-FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=000"/>
+</a>
+<a href="https://drive.google.com/file/d/11H9zUuqhxE4o3uRx2HzO31IM9aPRFmQH/view">
+  <img src="https://img.shields.io/badge/-RESUME-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=000"/>
+</a>
+
+<br><br>
+
+<!-- VISITOR COUNTER WITH STYLE -->
+<img src="https://profile-counter.glitch.me/m7mdraafat/count.svg" />
+
+<br>
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                                       ║
+║   ██████╗ ██████╗ ███████╗███╗   ██╗    ████████╗ ██████╗     ██╗    ██╗ ██████╗  ██████╗ ██╗  ██╗   ║
+║  ██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ╚══██╔══╝██╔═══██╗    ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝   ║
+║  ██║   ██║██████╔╝█████╗  ██╔██╗ ██║       ██║   ██║   ██║    ██║ █╗ ██║██║   ██║██████╔╝█████╔╝    ║
+║  ██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║       ██║   ██║   ██║    ██║███╗██║██║   ██║██╔══██╗██╔═██╗    ║
+║  ╚██████╔╝██║     ███████╗██║ ╚████║       ██║   ╚██████╔╝    ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗   ║
+║   ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝       ╚═╝    ╚═════╝      ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ║
+║                                                                                                       ║
+║                           🚀 Looking for New Opportunities! 🚀                                        ║
+║                                                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="30" /> 💭 Daily Dev Quote
-
+<!-- SUPPORT SECTION -->
 <div align="center">
 
-<!-- Quote rotates daily via GitHub Action -->
-<a href="https://github.com/piyushsuthar/github-readme-quotes">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&animation=grow_out_in&quoteCategory=programming" alt="Dev Quote" />
+## <img src="https://media.giphy.com/media/ob3PztnhfnLCE/giphy.gif" width="35"> FUEL MY CODE
+
+<a href="https://buymeacoffee.com/m7mdraafat">
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=m7mdraafat&button_colour=39FF14&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
 </a>
 
-<br>
-
-<!-- Additional Quote Styles -->
-<details>
-<summary>🎲 Click for more quote styles!</summary>
-<br>
-
-**📦 Border Style**
-<br>
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula&border=true" alt="Quote with Border" />
-
-<br>
-
-**🌈 Vertical Layout**
-<br>
-<img src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=algolia" alt="Vertical Quote" />
-
-</details>
-
 </div>
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/216121964-513bdf95-3c8c-429a-82bc-7c770caca8fc.png" width="30" /> Support My Work
-
+<!-- ANIMATED FOOTER -->
 <div align="center">
 
-If you find my work helpful, consider supporting me! ☕
-
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/m7mdraafat)
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/m7mdraafat)
+<img src="https://capsule-render.vercel.app/api?type=shark&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer&animation=twinkling&fontSize=90"/>
 
 </div>
 
----
-
-<div align="center">
-
-### 🤝 Open to New Opportunities!
-
-<img src="https://img.shields.io/badge/Status-Looking%20for%20New%20Opportunities-brightgreen?style=for-the-badge" />
-
-<br>
-
-**💼 Let's connect and build something amazing together!**
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
-
-</div>
-
-<!-- Hidden Easter Egg -->
+<!-- HIDDEN KONAMI CODE EASTER EGG -->
 <!--
-  _____ _                 _          __              ___     _     _ _   _             
- |_   _| |__   __ _ _ __ | | _____  / _| ___  _ __  / \ \   (_)___(_) |_(_)_ __   __ _ 
-   | | | '_ \ / _` | '_ \| |/ / __|| |_ / _ \| '__| \ \ \ \  | / __| | __| | '_ \ / _` |
-   | | | | | | (_| | | | |   <\__ \|  _| (_) | |     \ \ \ \ | \__ \ | |_| | | | | (_| |
-   |_| |_| |_|\__,_|_| |_|_|\_\___/|_|  \___/|_|      \_\_\_\|_|___/_|\__|_|_| |_|\__, |
-                                                                                  |___/ 
-  You found the easter egg! 🥚 Feel free to connect with me!
+████████████████████████████████████████████████████████████████████
+█                                                                  █
+█  🎮 KONAMI CODE ACTIVATED: ↑↑↓↓←→←→BA                           █
+█                                                                  █
+█  You found the secret! Here's what drives me:                    █
+█                                                                  █
+█  > while(alive) {                                                █
+█  >     eat();                                                    █
+█  >     sleep();                                                  █
+█  >     code();                                                   █
+█  >     repeat();                                                 █
+█  > }                                                             █
+█                                                                  █
+█  "The best error message is the one that never shows up."        █
+█                                                                  █
+█  Want to collaborate? Let's build something legendary! 🚀        █
+█                                                                  █
+████████████████████████████████████████████████████████████████████
 -->
+
+<!-- GITHUB ACTIVITY BADGE -->
+<div align="center">
+
+![GitHub Activity](https://img.shields.io/github/last-commit/m7mdraafat/m7mdraafat?style=flat-square&logo=github&label=Last%20Activity&color=39FF14)
+
+</div>
