@@ -1,11 +1,8 @@
 <div align="center">
 
-<!-- ⚫ SLEEK DARK HEADER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a2e,100:16213e&height=220&section=header&text=Mohamed%20Raafat&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20%7C%20.NET%20Specialist%20%7C%20Problem%20Solver&descAlignY=55&descSize=18&stroke=ffffff&strokeWidth=1"/>
-
-<!-- ANIMATED TYPING - SILVER -->
+<!-- 🔄 DYNAMIC HEADER - Updates every 6 hours with live stats & time-based greeting -->
 <a href="https://github.com/m7mdraafat">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=C0C0C0&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=%E2%9A%A1+Software+Engineer+Intern+%40+Microsoft;%F0%9F%8E%93+Computer+Science+%40+Tanta+University;%F0%9F%92%BB+Full-Stack+.NET+Developer;%F0%9F%A7%A9+Problem+Solver;%E2%9C%A8+Building+Scalable+Solutions" alt="Typing SVG" />
+  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg" alt="Dynamic Header"/>
 </a>
 
 <br>
