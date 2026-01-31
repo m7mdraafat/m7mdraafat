@@ -72,6 +72,30 @@
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
+## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="35" /> &nbsp;Achievements & Metrics
+
+<div align="center">
+
+<!-- DARK TROPHIES -->
+<img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
+
+<br><br>
+
+<!-- DARK PROFILE SUMMARY -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m7mdraafat&theme=github_dark" width="100%"/>
+
+<br><br>
+
+<!-- METRICS FROM WORKFLOW -->
+<a href="https://github.com/m7mdraafat">
+  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/metrics/github-metrics.svg" alt="Detailed Metrics"/>
+</a>
+
+</div>
+
+<!-- DARK DIVIDER LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
+
 ## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="35" /> &nbsp;GitHub Statistics
 
 <div align="center">
@@ -198,30 +222,6 @@
 
 <a href="https://leetcode.com/u/mo_raafat/">
   <img height="320" src="https://leetcard.jacoblin.cool/mo_raafat?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats"/>
-</a>
-
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
-## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="35" /> &nbsp;Achievements & Metrics
-
-<div align="center">
-
-<!-- DARK TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
-
-<br><br>
-
-<!-- DARK PROFILE SUMMARY -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m7mdraafat&theme=github_dark" width="100%"/>
-
-<br><br>
-
-<!-- METRICS FROM WORKFLOW -->
-<a href="https://github.com/m7mdraafat">
-  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/metrics/github-metrics.svg" alt="Detailed Metrics"/>
 </a>
 
 </div>
