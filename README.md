@@ -15,11 +15,6 @@
 <a href="https://github.com/m7mdraafat?tab=followers"><img src="https://img.shields.io/github/followers/m7mdraafat?style=for-the-badge&color=16213e&labelColor=1a1a2e&logo=github"/></a>
 <a href="https://github.com/m7mdraafat?tab=repositories"><img src="https://img.shields.io/github/stars/m7mdraafat?style=for-the-badge&color=1a1a2e&labelColor=16213e&logo=github"/></a>
 
-<br><br>
-
-<!-- ANIMATED CODING GIF -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
-
 </div>
 
 <!-- DARK DIVIDER LINE -->
@@ -28,11 +23,6 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="40" /> &nbsp;About Me
 
 <div align="center">
-
-<!-- ANIMATED INTRO -->
-<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
-
-<br><br>
 
 <!-- VISUAL IDENTITY CARDS -->
 <a href="https://www.microsoft.com"><img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" height="35"/></a>
@@ -74,17 +64,37 @@
 
 <br>
 
-<!-- ANIMATED LEARNING GIF -->
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="280">
-
-<br><br>
-
 <!-- CURRENTLY EXPLORING -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=🔭+Exploring+System+Design;☁️+Learning+Azure+Cloud;🚀+Building+Microservices;🧠+Mastering+Clean+Architecture" alt="Currently" />
 
 </div>
 
-<br clear="both">
+<!-- DARK DIVIDER LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
+
+## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="35" /> &nbsp;GitHub Statistics
+
+<div align="center">
+
+<!-- DARK GITHUB STATS -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=m7mdraafat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c0c0c0&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=m7mdraafat&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1a1a2e&ring=58a6ff&fire=c0c0c0&currStreakNum=ffffff&sideNums=8b949e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak"/>
+
+<br><br>
+
+<!-- CONTRIBUTION SNAKE -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
+</picture>
+
+<br><br>
+
+<!-- DARK ACTIVITY GRAPH -->
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=m7mdraafat&bg_color=0d1117&color=8b949e&line=58a6ff&point=c0c0c0&area_color=1a1a2e&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
+
+</div>
 
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
@@ -155,56 +165,6 @@
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="35" /> &nbsp;Problem Solving
-
-<div align="center">
-
-<!-- ANIMATED CODING GIF -->
-<img src="https://user-images.githubusercontent.com/74038190/212747903-e9bdf048-2dc8-41f9-b973-0e72ff07bfba.gif" width="400">
-
-<br><br>
-
-<a href="https://leetcode.com/u/mo_raafat/">
-  <img height="320" src="https://leetcard.jacoblin.cool/mo_raafat?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats"/>
-</a>
-
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
-## <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="35" /> &nbsp;GitHub Statistics
-
-<div align="center">
-
-<!-- DARK GITHUB STATS -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=m7mdraafat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c0c0c0&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=m7mdraafat&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1a1a2e&ring=58a6ff&fire=c0c0c0&currStreakNum=ffffff&sideNums=8b949e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak"/>
-
-<br><br>
-
-<!-- TOP LANGUAGES -->
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m7mdraafat&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=c0c0c0&text_color=8b949e&langs_count=8" alt="Top Languages"/>
-
-<br><br>
-
-<!-- CONTRIBUTION SNAKE -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br><br>
-
-<!-- DARK ACTIVITY GRAPH -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=m7mdraafat&bg_color=0d1117&color=8b949e&line=58a6ff&point=c0c0c0&area_color=1a1a2e&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
-
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
 ## <img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="35" /> &nbsp;3D Contributions
 
 <div align="center">
@@ -227,40 +187,35 @@
   <img src="https://img.shields.io/badge/🏙️_3D_Skyline_2023-16213e?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
-<br><br>
+</div>
 
-<!-- DARK PROFILE SUMMARY -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m7mdraafat&theme=github_dark" width="100%"/>
+<!-- DARK DIVIDER LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
+
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="35" /> &nbsp;Problem Solving
+
+<div align="center">
+
+<a href="https://leetcode.com/u/mo_raafat/">
+  <img height="320" src="https://leetcard.jacoblin.cool/mo_raafat?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats"/>
+</a>
 
 </div>
 
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="35" /> &nbsp;Achievements
+## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="35" /> &nbsp;Achievements & Metrics
 
 <div align="center">
 
 <!-- DARK TROPHIES -->
 <img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
 
-</div>
+<br><br>
 
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
-## <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="35"> &nbsp;Dynamic Profile
-
-<div align="center">
-
-<!-- 🔥 SELF-GENERATED DYNAMIC SVGs - Updated every 6 hours by GitHub Actions -->
-<a href="https://github.com/m7mdraafat">
-  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg" alt="Dynamic Profile Card"/>
-</a>
-
-<br>
-
-<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/status.svg" alt="Current Status"/>
+<!-- DARK PROFILE SUMMARY -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m7mdraafat&theme=github_dark" width="100%"/>
 
 <br><br>
 
@@ -278,70 +233,23 @@
 
 <div align="center">
 
-<!-- ANIMATED HAND WAVE -->
-<img src="https://user-images.githubusercontent.com/74038190/214644152-52f47eb3-5e31-4f47-8758-05c9468d5596.gif" width="200">
-
-<br><br>
-
 <!-- DARK SOCIAL BUTTONS -->
 <a href="https://linkedin.com/in/mohamed-raafat-701290252"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/></a>
 <a href="mailto:m7mdraafat2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
 <a href="https://github.com/m7mdraafat"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://wa.me/201503755070"><img src="https://img.shields.io/badge/WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=25D366"/></a>
-<a href="https://facebook.com/profile.php?id=100084236323114"><img src="https://img.shields.io/badge/Facebook-0d1117?style=for-the-badge&logo=facebook&logoColor=1877F2"/></a>
+<a href="https://leetcode.com/u/mo_raafat/"><img src="https://img.shields.io/badge/LeetCode-0d1117?style=for-the-badge&logo=leetcode&logoColor=FFA116"/></a>
 
 <br>
 
-<a href="https://leetcode.com/u/mo_raafat/"><img src="https://img.shields.io/badge/LeetCode-0d1117?style=for-the-badge&logo=leetcode&logoColor=FFA116"/></a>
 <a href="https://drive.google.com/file/d/11H9zUuqhxE4o3uRx2HzO31IM9aPRFmQH/view"><img src="https://img.shields.io/badge/📄_Resume-1a1a2e?style=for-the-badge"/></a>
 
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
-<div align="center">
-
-## <img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="35" /> &nbsp;Open to Opportunities!
+<br><br>
 
 <!-- STATUS BADGE -->
 <img src="https://img.shields.io/badge/⚡_Status-Open%20to%20Work-58a6ff?style=for-the-badge&labelColor=0d1117"/>
-
-<br><br>
-
-<!-- ANIMATED CODING -->
-<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="400">
-
-<br><br>
-
-<!-- SUPPORT BUTTONS - DARK -->
-<a href="https://buymeacoffee.com/m7mdraafat">
-  <img src="https://img.shields.io/badge/☕_Buy%20Me%20A%20Coffee-0d1117?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00"/>
-</a>
-<a href="https://ko-fi.com/m7mdraafat">
-  <img src="https://img.shields.io/badge/❤️_Ko--fi-0d1117?style=for-the-badge&logo=ko-fi&logoColor=FF5E5B"/>
-</a>
-
-<br><br>
-
-<!-- SPOTIFY -->
-[![Spotify](https://spotify-recently-played-readme.vercel.app/api?user=m7mdraafat&count=1&unique=true)](https://open.spotify.com/user/m7mdraafat)
 
 </div>
 
 <!-- ⚫ DARK FOOTER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a2e,100:16213e&height=150&section=footer"/>
-
-<!-- HIDDEN EASTER EGG -->
-<!--
-╔══════════════════════════════════════════════════════════════════╗
-║  ⚫ You found the dark mode easter egg! ⚫                       ║
-║                                                                   ║
-║  ⬛ Clean & Professional                                         ║
-║  ⬛ Focus on Content                                             ║
-║  ⬛ Easy on the Eyes                                             ║
-║  ⬛ Timeless Design                                              ║
-║                                                                   ║
-║  Thanks for visiting! Let's build something amazing! ⚡          ║
-╚══════════════════════════════════════════════════════════════════╝
--->
