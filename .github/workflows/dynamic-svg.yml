@@ -336,21 +336,20 @@ jobs:
       
       - name: Commit and Push
         run: |
+          # Save generated files
+          cp -r dynamic-svg /tmp/dynamic-svg-new
+          
+          # Fetch and reset to latest remote
+          git fetch origin master
+          git reset --hard origin/master
+          
+          # Restore generated files
+          cp -r /tmp/dynamic-svg-new/* dynamic-svg/
+          
+          # Configure git and commit
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          
-          # Stash our generated files
-          cp -r dynamic-svg /tmp/dynamic-svg-backup
-          
-          # Reset to clean state and pull latest
-          git checkout -- .
-          git pull origin master
-          
-          # Restore our generated files
-          cp -r /tmp/dynamic-svg-backup/* dynamic-svg/
-          
-          # Add and commit
           git add dynamic-svg/
-          git diff --quiet && git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "🎨 Update dynamic SVGs - $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git push
+          git push origin master

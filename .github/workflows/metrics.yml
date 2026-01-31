@@ -11,6 +11,11 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
       - name: Generate Comprehensive Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -22,6 +27,8 @@ jobs:
           config_timezone: Africa/Cairo
           config_display: large
           config_padding: 5%
+          committer_branch: master
+          committer_message: "📊 Update metrics"
           
           # Isometric Calendar
           plugin_isocalendar: yes
