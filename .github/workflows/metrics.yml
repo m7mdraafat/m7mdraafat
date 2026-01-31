@@ -2,7 +2,7 @@ name: Generate Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
+    - cron: "0 */6 * * *" # Runs every 6 hours
   workflow_dispatch: # Allows manual trigger
   push:
     branches:
@@ -14,77 +14,48 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Main metrics
-      - name: Generate Main Metrics
+      - name: Generate Comprehensive Metrics
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: m7mdraafat
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories
           config_timezone: Africa/Cairo
+          config_display: large
+          config_padding: 5%
+          
+          # Isometric Calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
+          
+          # Languages
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
+          plugin_languages_categories: programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_days: 14
-          plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
-
-      # Achievements
-      - name: Generate Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: m7mdraafat
-          base: ""
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
+          
+          # Achievements
           plugin_achievements: yes
           plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_limit: 0
-
-      # Coding Habits
-      - name: Generate Coding Habits
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: m7mdraafat
-          base: ""
+          plugin_achievements_display: compact
+          
+          # Lines of code
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          
+          # Habits
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_trim: no
-
-      # Notable Contributions
-      - name: Generate Notable Contributions
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/notable.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: m7mdraafat
-          base: ""
-          plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_repositories: yes
-
-      # Stars
-      - name: Generate Stargazers
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/stargazers.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: m7mdraafat
-          base: ""
-          plugin_stargazers: yes
-          plugin_stargazers_charts_type: classic
+          
+          # Stars
+          plugin_stars: yes
+          plugin_stars_limit: 3
