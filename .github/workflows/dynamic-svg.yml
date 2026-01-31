@@ -338,13 +338,19 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
+          
+          # Stash our generated files
+          cp -r dynamic-svg /tmp/dynamic-svg-backup
+          
+          # Reset to clean state and pull latest
+          git checkout -- .
+          git pull origin master
+          
+          # Restore our generated files
+          cp -r /tmp/dynamic-svg-backup/* dynamic-svg/
+          
+          # Add and commit
           git add dynamic-svg/
           git diff --quiet && git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "🎨 Update dynamic SVGs - $(date -u +'%Y-%m-%d %H:%M') UTC"
-          
-          # Retry push with rebase up to 3 times
-          for i in 1 2 3; do
-            git pull --rebase origin master && git push && break
-            echo "Push attempt $i failed, retrying..."
-            sleep 5
-          done
+          git push
