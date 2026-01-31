@@ -5,7 +5,7 @@
 
 <!-- ANIMATED TYPING - SILVER -->
 <a href="https://github.com/m7mdraafat">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=C0C0C0&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=%E2%9A%A1+Software+Engineer+Intern+%40+Microsoft;%F0%9F%8E%93+Computer+Science+%40+Tanta+University;%F0%9F%92%BB+Full-Stack+.NET+Developer;%F0%9F%8F%86+Competitive+Programmer;%E2%9C%A8+Building+Scalable+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=C0C0C0&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=50&lines=%E2%9A%A1+Software+Engineer+Intern+%40+Microsoft;%F0%9F%8E%93+Computer+Science+%40+Tanta+University;%F0%9F%92%BB+Full-Stack+.NET+Developer;%F0%9F%A7%A9+Problem+Solver;%E2%9C%A8+Building+Scalable+Solutions" alt="Typing SVG" />
 </a>
 
 <br>
@@ -40,7 +40,7 @@ education: CS @ Tanta University (Junior)
 fields_of_interest:
   - Full-Stack .NET Development
   - Backend Architecture
-  - Competitive Programming
+  - Problem Solving
   - System Design
 
 technical_background:
@@ -132,7 +132,7 @@ fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="35" /> &nbsp;Competitive Programming
+## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="35" /> &nbsp;Problem Solving
 
 <div align="center">
 
@@ -141,9 +141,6 @@ fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
 
 <br><br>
 
-<a href="https://codeforces.com/profile/mohamedraafat1">
-  <img height="320" src="https://codeforces-readme-stats.vercel.app/api/card?username=mohamedraafat1&theme=github_dark&force_username=true&border_color=1a1a2e" alt="Codeforces Stats"/>
-</a>
 <a href="https://leetcode.com/u/mo_raafat/">
   <img height="320" src="https://leetcard.jacoblin.cool/mo_raafat?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats"/>
 </a>
@@ -336,7 +333,6 @@ fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
 
 <br>
 
-<a href="https://codeforces.com/profile/mohamedraafat1"><img src="https://img.shields.io/badge/Codeforces-0d1117?style=for-the-badge&logo=codeforces&logoColor=1F8ACB"/></a>
 <a href="https://leetcode.com/u/mo_raafat/"><img src="https://img.shields.io/badge/LeetCode-0d1117?style=for-the-badge&logo=leetcode&logoColor=FFA116"/></a>
 <a href="https://drive.google.com/file/d/11H9zUuqhxE4o3uRx2HzO31IM9aPRFmQH/view"><img src="https://img.shields.io/badge/📄_Resume-1a1a2e?style=for-the-badge"/></a>
 
