@@ -1,0 +1,346 @@
+name: Generate Dynamic Profile SVGs
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Every 6 hours
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-svg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Create SVG Generator
+        run: |
+          mkdir -p dynamic-svg
+          cat > generate-svg.js << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+
+          const username = 'm7mdraafat';
+
+          // Fetch GitHub user data
+          function fetchGitHubData() {
+            return new Promise((resolve, reject) => {
+              const options = {
+                hostname: 'api.github.com',
+                path: `/users/${username}`,
+                headers: { 'User-Agent': 'GitHub-Profile-Generator' }
+              };
+              
+              https.get(options, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => resolve(JSON.parse(data)));
+              }).on('error', reject);
+            });
+          }
+
+          // Fetch repos for language stats
+          function fetchRepos() {
+            return new Promise((resolve, reject) => {
+              const options = {
+                hostname: 'api.github.com',
+                path: `/users/${username}/repos?per_page=100`,
+                headers: { 'User-Agent': 'GitHub-Profile-Generator' }
+              };
+              
+              https.get(options, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => resolve(JSON.parse(data)));
+              }).on('error', reject);
+            });
+          }
+
+          // Generate animated header SVG
+          function generateHeaderSVG(userData) {
+            const now = new Date();
+            const hour = now.getUTCHours() + 2; // Cairo timezone
+            const greeting = hour < 12 ? 'Good Morning' : hour < 18 ? 'Good Afternoon' : 'Good Evening';
+            
+            return `
+          <svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0d1117"/>
+                <stop offset="50%" style="stop-color:#1a1a2e"/>
+                <stop offset="100%" style="stop-color:#16213e"/>
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                <feMerge>
+                  <feMergeNode in="coloredBlur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+            
+            <rect width="100%" height="100%" fill="url(#headerGrad)" rx="10"/>
+            
+            <!-- Animated particles -->
+            <circle cx="50" cy="50" r="2" fill="#58a6ff" opacity="0.6">
+              <animate attributeName="cy" values="50;150;50" dur="4s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="150" cy="100" r="1.5" fill="#58a6ff" opacity="0.4">
+              <animate attributeName="cy" values="100;30;100" dur="3s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="650" cy="80" r="2" fill="#58a6ff" opacity="0.5">
+              <animate attributeName="cy" values="80;170;80" dur="5s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="750" cy="120" r="1" fill="#c0c0c0" opacity="0.4">
+              <animate attributeName="cy" values="120;40;120" dur="3.5s" repeatCount="indefinite"/>
+            </circle>
+            
+            <!-- Main text with animation -->
+            <text x="400" y="70" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff" filter="url(#glow)">
+              ${greeting}! I'm Mohamed Raafat
+              <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+            </text>
+            
+            <text x="400" y="110" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#8b949e">
+              Software Engineer Intern @ Microsoft | .NET Developer
+              <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze"/>
+            </text>
+            
+            <!-- Stats with animation -->
+            <g transform="translate(150, 150)">
+              <text x="0" y="0" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">
+                👥 ${userData.followers} followers
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+              </text>
+              <text x="150" y="0" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">
+                📦 ${userData.public_repos} repositories
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
+              </text>
+              <text x="330" y="0" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">
+                ⭐ ${userData.following} following
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+              </text>
+              <text x="500" y="0" font-family="Segoe UI, Arial" font-size="14" fill="#8b949e">
+                🕐 Updated: ${now.toISOString().slice(0, 16).replace('T', ' ')} UTC
+                <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.6s" fill="freeze"/>
+              </text>
+            </g>
+          </svg>`;
+          }
+
+          // Generate coding activity SVG
+          function generateActivitySVG(repos) {
+            const languages = {};
+            let totalSize = 0;
+            
+            repos.forEach(repo => {
+              if (repo.language && !repo.fork) {
+                languages[repo.language] = (languages[repo.language] || 0) + (repo.size || 0);
+                totalSize += repo.size || 0;
+              }
+            });
+            
+            const sortedLangs = Object.entries(languages)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 6);
+            
+            const langColors = {
+              'C#': '#178600',
+              'C++': '#f34b7d',
+              'C': '#555555',
+              'JavaScript': '#f1e05a',
+              'HTML': '#e34c26',
+              'CSS': '#563d7c',
+              'Python': '#3572A5',
+              'TypeScript': '#2b7489'
+            };
+            
+            let bars = '';
+            let labels = '';
+            let offset = 0;
+            
+            sortedLangs.forEach(([lang, size], i) => {
+              const percentage = totalSize > 0 ? (size / totalSize * 100) : 0;
+              const width = percentage * 5;
+              const color = langColors[lang] || '#58a6ff';
+              const yPos = 60 + i * 45;
+              
+              bars += `
+                <rect x="150" y="${yPos}" width="0" height="25" fill="${color}" rx="4">
+                  <animate attributeName="width" from="0" to="${width}" dur="1s" begin="${i * 0.15}s" fill="freeze"/>
+                </rect>
+                <text x="${160 + width}" y="${yPos + 17}" font-family="Segoe UI, Arial" font-size="12" fill="#8b949e" opacity="0">
+                  ${percentage.toFixed(1)}%
+                  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="${i * 0.15 + 0.8}s" fill="freeze"/>
+                </text>
+              `;
+              
+              labels += `
+                <text x="140" y="${yPos + 17}" font-family="Segoe UI, Arial" font-size="14" fill="#c0c0c0" text-anchor="end" opacity="0">
+                  ${lang}
+                  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="${i * 0.15}s" fill="freeze"/>
+                </text>
+              `;
+            });
+            
+            return `
+          <svg width="600" height="350" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0d1117"/>
+                <stop offset="100%" style="stop-color:#161b22"/>
+              </linearGradient>
+            </defs>
+            
+            <rect width="100%" height="100%" fill="url(#cardGrad)" rx="10"/>
+            <rect x="1" y="1" width="598" height="348" fill="none" stroke="#30363d" rx="10"/>
+            
+            <text x="300" y="35" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" font-weight="bold" fill="#c0c0c0">
+              📊 Most Used Languages
+            </text>
+            
+            ${labels}
+            ${bars}
+          </svg>`;
+          }
+
+          // Generate current status SVG
+          function generateStatusSVG() {
+            const now = new Date();
+            const hour = now.getUTCHours() + 2;
+            
+            let status, statusColor, icon;
+            if (hour >= 9 && hour < 18) {
+              status = 'Currently Coding';
+              statusColor = '#3fb950';
+              icon = '💻';
+            } else if (hour >= 18 && hour < 22) {
+              status = 'Learning & Exploring';
+              statusColor = '#58a6ff';
+              icon = '📚';
+            } else {
+              status = 'Dreaming in Code';
+              statusColor = '#8b949e';
+              icon = '🌙';
+            }
+            
+            return `
+          <svg width="300" height="80" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="statusGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#0d1117"/>
+                <stop offset="100%" style="stop-color:#161b22"/>
+              </linearGradient>
+            </defs>
+            
+            <rect width="100%" height="100%" fill="url(#statusGrad)" rx="8"/>
+            <rect x="1" y="1" width="298" height="78" fill="none" stroke="#30363d" rx="8"/>
+            
+            <!-- Pulsing dot -->
+            <circle cx="25" cy="40" r="6" fill="${statusColor}">
+              <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+            </circle>
+            
+            <text x="45" y="35" font-family="Segoe UI, Arial" font-size="12" fill="#8b949e">Current Status</text>
+            <text x="45" y="55" font-family="Segoe UI, Arial" font-size="16" font-weight="bold" fill="${statusColor}">
+              ${icon} ${status}
+            </text>
+          </svg>`;
+          }
+
+          // Generate weekly coding visualization
+          function generateWeeklyVizSVG() {
+            const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            const now = new Date();
+            const currentDay = now.getDay();
+            
+            // Simulated activity (would be replaced with real data from GitHub API)
+            const activities = [3, 7, 5, 8, 6, 4, 2];
+            const maxActivity = Math.max(...activities);
+            
+            let bars = '';
+            days.forEach((day, i) => {
+              const height = (activities[i] / maxActivity) * 80;
+              const isToday = i === currentDay;
+              const color = isToday ? '#58a6ff' : '#30363d';
+              
+              bars += `
+                <rect x="${50 + i * 70}" y="${120 - height}" width="40" height="0" fill="${color}" rx="4">
+                  <animate attributeName="height" from="0" to="${height}" dur="0.5s" begin="${i * 0.1}s" fill="freeze"/>
+                  <animate attributeName="y" from="120" to="${120 - height}" dur="0.5s" begin="${i * 0.1}s" fill="freeze"/>
+                </rect>
+                <text x="${70 + i * 70}" y="140" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" fill="${isToday ? '#58a6ff' : '#8b949e'}">
+                  ${day}
+                </text>
+              `;
+            });
+            
+            return `
+          <svg width="550" height="170" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="weekGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0d1117"/>
+                <stop offset="100%" style="stop-color:#161b22"/>
+              </linearGradient>
+            </defs>
+            
+            <rect width="100%" height="100%" fill="url(#weekGrad)" rx="10"/>
+            <rect x="1" y="1" width="548" height="168" fill="none" stroke="#30363d" rx="10"/>
+            
+            <text x="275" y="25" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" font-weight="bold" fill="#c0c0c0">
+              📅 This Week's Activity
+            </text>
+            
+            ${bars}
+          </svg>`;
+          }
+
+          async function main() {
+            try {
+              const userData = await fetchGitHubData();
+              const repos = await fetchRepos();
+              
+              // Create directory
+              if (!fs.existsSync('dynamic-svg')) {
+                fs.mkdirSync('dynamic-svg', { recursive: true });
+              }
+              
+              // Generate all SVGs
+              fs.writeFileSync('dynamic-svg/header.svg', generateHeaderSVG(userData));
+              fs.writeFileSync('dynamic-svg/languages.svg', generateActivitySVG(repos));
+              fs.writeFileSync('dynamic-svg/status.svg', generateStatusSVG());
+              fs.writeFileSync('dynamic-svg/weekly.svg', generateWeeklyVizSVG());
+              
+              console.log('✅ All dynamic SVGs generated successfully!');
+              console.log(`📊 User: ${userData.login}`);
+              console.log(`📦 Repos analyzed: ${repos.length}`);
+            } catch (error) {
+              console.error('Error:', error);
+              process.exit(1);
+            }
+          }
+
+          main();
+          EOF
+      
+      - name: Generate Dynamic SVGs
+        run: node generate-svg.js
+      
+      - name: Commit and Push
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add dynamic-svg/
+          git diff --quiet && git diff --staged --quiet || git commit -m "🎨 Update dynamic SVGs - $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push

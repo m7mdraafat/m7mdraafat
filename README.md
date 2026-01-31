@@ -240,7 +240,30 @@ fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="35"> &nbsp;Detailed Metrics
+## <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="35"> &nbsp;Dynamic Profile Cards
+
+<div align="center">
+
+<!-- 🔥 SELF-GENERATED DYNAMIC SVGs - Updated every 6 hours by GitHub Actions -->
+<a href="https://github.com/m7mdraafat">
+  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/header.svg" alt="Dynamic Profile Card"/>
+</a>
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/languages.svg" alt="Language Statistics" width="49%"/>
+<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/weekly.svg" alt="Weekly Activity" width="45%"/>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/status.svg" alt="Current Status"/>
+
+</div>
+
+<!-- DARK DIVIDER LINE -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
+
+## <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="35"> &nbsp;Detailed Metrics
 
 <div align="center">
 
