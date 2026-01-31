@@ -27,39 +27,33 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="40" /> &nbsp;About Me
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="350"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320"/>
 
 <br>
 
-```yaml
-name: Mohamed Raafat
-located_in: Egypt 🇪🇬
-current_job: Software Engineer Intern @ Microsoft
-education: CS @ Tanta University (Junior)
+### 👋 Hey there! I'm Mohamed
 
-fields_of_interest:
-  - Full-Stack .NET Development
-  - Backend Architecture
-  - Problem Solving
-  - System Design
+<table>
+<tr><td>🏢</td><td><b>Currently</b></td><td>Software Engineer Intern @ <b>Microsoft</b></td></tr>
+<tr><td>🎓</td><td><b>Studying</b></td><td>Computer Science @ Tanta University (Junior)</td></tr>
+<tr><td>📍</td><td><b>Location</b></td><td>Egypt 🇪🇬</td></tr>
+<tr><td>💼</td><td><b>Focus</b></td><td>Full-Stack .NET Development & Backend Architecture</td></tr>
+</table>
 
-technical_background:
-  - Clean Architecture & SOLID
-  - Design Patterns
-  - REST APIs & Microservices
+#### 🚀 What I Do
 
-currently_learning:
-  - Cloud Architecture (Azure)
-  - Advanced System Design
-  - DevOps Practices
+- 🔧 Build **scalable backend systems** with Clean Architecture & SOLID principles
+- 🌐 Design **RESTful APIs** and microservices
+- ☁️ Learning **Azure cloud** & DevOps practices
+- 🧩 Love solving **algorithmic problems** and optimizing code
 
-hobbies:
-  - Solving Algorithmic Problems
-  - Contributing to Open Source
-  - Learning New Technologies
+#### 🎯 Currently Exploring
 
-fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
-```
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white"/> <img src="https://img.shields.io/badge/System_Design-1a1a2e?style=flat-square&logo=buffer&logoColor=white"/> <img src="https://img.shields.io/badge/DevOps-16213e?style=flat-square&logo=azure-devops&logoColor=white"/> <img src="https://img.shields.io/badge/Microservices-0f3460?style=flat-square&logo=dotnet&logoColor=white"/>
+
+#### ⚡ Fun Fact
+
+> *"I debug with coffee ☕ and solve bugs for breakfast 🐛"*
 
 <br clear="both">
 
