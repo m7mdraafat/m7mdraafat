@@ -188,7 +188,7 @@ fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
 
 <!-- 3D CONTRIBUTION CALENDAR -->
 <a href="https://github.com/m7mdraafat">
-  <img src="https://github.com/m7mdraafat/m7mdraafat/blob/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contributions"/>
+  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contributions"/>
 </a>
 
 <br>
@@ -243,17 +243,17 @@ fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
 
 <!-- 🔥 SELF-GENERATED DYNAMIC SVGs - Updated every 6 hours by GitHub Actions -->
 <a href="https://github.com/m7mdraafat">
-  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/header.svg" alt="Dynamic Profile Card"/>
+  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg" alt="Dynamic Profile Card"/>
 </a>
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/languages.svg" alt="Language Statistics" width="49%"/>
-<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/weekly.svg" alt="Weekly Activity" width="45%"/>
+<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/languages.svg" alt="Language Statistics" width="49%"/>
+<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/weekly.svg" alt="Weekly Activity" width="45%"/>
 
 <br>
 
-<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/main/dynamic-svg/status.svg" alt="Current Status"/>
+<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/status.svg" alt="Current Status"/>
 
 </div>
 
@@ -266,7 +266,7 @@ fun_fact: "I debug with coffee ☕ and solve bugs for breakfast 🐛"
 
 <!-- METRICS FROM WORKFLOW -->
 <a href="https://github.com/m7mdraafat">
-  <img src="https://github.com/m7mdraafat/m7mdraafat/blob/main/metrics/github-metrics.svg" alt="Detailed Metrics"/>
+  <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/metrics/github-metrics.svg" alt="Detailed Metrics"/>
 </a>
 
 <!-- FALLBACK DARK CARDS -->
