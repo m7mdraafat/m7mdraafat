@@ -75,7 +75,7 @@
 <br>
 
 <!-- ANIMATED LEARNING GIF -->
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="280">
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="280">
 
 <br><br>
 
@@ -232,12 +232,6 @@
 <!-- DARK PROFILE SUMMARY -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m7mdraafat&theme=github_dark" width="100%"/>
 
-<br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=m7mdraafat&theme=github_dark" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=m7mdraafat&theme=github_dark" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=m7mdraafat&theme=github_dark&utcOffset=2" width="32%"/>
-
 </div>
 
 <!-- DARK DIVIDER LINE -->
@@ -250,17 +244,12 @@
 <!-- DARK TROPHIES -->
 <img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
 
-<br>
-
-<!-- ANIMATED ACHIEVEMENTS -->
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
-
 </div>
 
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
-## <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="35"> &nbsp;Dynamic Profile Cards
+## <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="35"> &nbsp;Dynamic Profile
 
 <div align="center">
 
@@ -269,69 +258,16 @@
   <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg" alt="Dynamic Profile Card"/>
 </a>
 
-<br><br>
-
-<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/languages.svg" alt="Language Statistics" width="49%"/>
-<img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/weekly.svg" alt="Weekly Activity" width="45%"/>
-
 <br>
 
 <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/status.svg" alt="Current Status"/>
 
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
-## <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="35"> &nbsp;Detailed Metrics
-
-<div align="center">
+<br><br>
 
 <!-- METRICS FROM WORKFLOW -->
 <a href="https://github.com/m7mdraafat">
   <img src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/metrics/github-metrics.svg" alt="Detailed Metrics"/>
 </a>
-
-<!-- FALLBACK DARK CARDS -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=m7mdraafat&theme=github_dark" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/commits?username=m7mdraafat&theme=github_dark" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/issues?username=m7mdraafat&theme=github_dark" width="32%"/>
-
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
-## <img src="https://user-images.githubusercontent.com/74038190/235294016-a3ad1bca-9e04-4293-b1d6-e0706729ec05.gif" width="35"> &nbsp;Latest Blog Posts
-
-<div align="center">
-
-<!-- BLOG-POST-LIST:START -->
-⚡ Coming soon! Follow me for tech articles!
-<!-- BLOG-POST-LIST:END -->
-
-<br>
-
-<a href="https://dev.to/m7mdraafat">
-  <img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"/>
-</a>
-<a href="https://medium.com/@m7mdraafat">
-  <img src="https://img.shields.io/badge/MEDIUM-000000?style=for-the-badge&logo=medium&logoColor=white"/>
-</a>
-<a href="https://hashnode.com/@m7mdraafat">
-  <img src="https://img.shields.io/badge/HASHNODE-1a1a2e?style=for-the-badge&logo=hashnode&logoColor=white"/>
-</a>
-
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="35" /> &nbsp;Random Dev Quote
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true" alt="Dev Quote"/>
 
 </div>
 
