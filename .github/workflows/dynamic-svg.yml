@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 */6 * * *" # Every 6 hours
   workflow_dispatch:
-  push:
-    branches:
-      - master
 
 jobs:
   generate-svg:
@@ -342,6 +339,12 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
           git add dynamic-svg/
-          git diff --quiet && git diff --staged --quiet || git commit -m "🎨 Update dynamic SVGs - $(date -u +'%Y-%m-%d %H:%M') UTC"
-          git pull --rebase origin master || true
-          git push
+          git diff --quiet && git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "🎨 Update dynamic SVGs - $(date -u +'%Y-%m-%d %H:%M') UTC"
+          
+          # Retry push with rebase up to 3 times
+          for i in 1 2 3; do
+            git pull --rebase origin master && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
