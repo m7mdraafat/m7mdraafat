@@ -27,33 +27,62 @@
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="40" /> &nbsp;About Me
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320"/>
+<div align="center">
+
+<!-- ANIMATED INTRO -->
+<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
+
+<br><br>
+
+<!-- VISUAL IDENTITY CARDS -->
+<a href="https://www.microsoft.com"><img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" height="35"/></a>
+<img src="https://img.shields.io/badge/Software_Engineer_Intern-000000?style=for-the-badge" height="35"/>
+<img src="https://img.shields.io/badge/Egypt_🇪🇬-1a1a2e?style=for-the-badge" height="35"/>
+
+<br><br>
+
+<!-- ANIMATED STATUS ICONS -->
+<table>
+<tr>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="60"/>
+<br><b>CS Student</b>
+<br><sub>Tanta University</sub>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="60"/>
+<br><b>.NET Dev</b>
+<br><sub>Full-Stack</sub>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="60"/>
+<br><b>Backend</b>
+<br><sub>Architecture</sub>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud.png" width="60"/>
+<br><b>Azure</b>
+<br><sub>Cloud</sub>
+</td>
+<td align="center">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Puzzle%20Piece.png" width="60"/>
+<br><b>Problem</b>
+<br><sub>Solver</sub>
+</td>
+</tr>
+</table>
 
 <br>
 
-### 👋 Hey there! I'm Mohamed
+<!-- ANIMATED LEARNING GIF -->
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="280">
 
-<table>
-<tr><td>🏢</td><td><b>Currently</b></td><td>Software Engineer Intern @ <b>Microsoft</b></td></tr>
-<tr><td>🎓</td><td><b>Studying</b></td><td>Computer Science @ Tanta University (Junior)</td></tr>
-<tr><td>📍</td><td><b>Location</b></td><td>Egypt 🇪🇬</td></tr>
-<tr><td>💼</td><td><b>Focus</b></td><td>Full-Stack .NET Development & Backend Architecture</td></tr>
-</table>
+<br><br>
 
-#### 🚀 What I Do
+<!-- CURRENTLY EXPLORING -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=🔭+Exploring+System+Design;☁️+Learning+Azure+Cloud;🚀+Building+Microservices;🧠+Mastering+Clean+Architecture" alt="Currently" />
 
-- 🔧 Build **scalable backend systems** with Clean Architecture & SOLID principles
-- 🌐 Design **RESTful APIs** and microservices
-- ☁️ Learning **Azure cloud** & DevOps practices
-- 🧩 Love solving **algorithmic problems** and optimizing code
-
-#### 🎯 Currently Exploring
-
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white"/> <img src="https://img.shields.io/badge/System_Design-1a1a2e?style=flat-square&logo=buffer&logoColor=white"/> <img src="https://img.shields.io/badge/DevOps-16213e?style=flat-square&logo=azure-devops&logoColor=white"/> <img src="https://img.shields.io/badge/Microservices-0f3460?style=flat-square&logo=dotnet&logoColor=white"/>
-
-#### ⚡ Fun Fact
-
-> *"I debug with coffee ☕ and solve bugs for breakfast 🐛"*
+</div>
 
 <br clear="both">
 
