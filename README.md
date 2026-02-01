@@ -23,7 +23,7 @@
 
 <!-- 🔄 DYNAMIC ABOUT ME - Updates every 6 hours with random styles -->
 <a href="https://github.com/m7mdraafat">
-  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/about-me.svg?t=20260201a" alt="About Me"/>
+  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/about-me.svg?t=20260201b" alt="About Me"/>
 </a>
 
 </div>
