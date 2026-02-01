@@ -252,9 +252,14 @@ jobs:
           git reset --hard origin/master
           mkdir -p dynamic-svg
           cp -r /tmp/dynamic-svg-new/* dynamic-svg/
+          
+          # Update README with cache-busting timestamp
+          TIMESTAMP=$(date +%s)
+          sed -i "s|dynamic-svg/header.svg[^\"]*\"|dynamic-svg/header.svg?v=${TIMESTAMP}\"|g" README.md
+          
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          git add dynamic-svg/
+          git add dynamic-svg/ README.md
           git diff --staged --quiet && echo "No changes" && exit 0
           git commit -m "🎨 Update header SVG"
           git push origin master
