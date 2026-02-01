@@ -61,8 +61,12 @@
 
 <br>
 
-<!-- CURRENTLY EXPLORING -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=🔭+Exploring+System+Design;☁️+Learning+Azure+Cloud;🚀+Building+Microservices;🧠+Mastering+Clean+Architecture" alt="Currently" />
+<!-- CURRENTLY EXPLORING - VISUAL BADGES -->
+<img src="https://img.shields.io/badge/🔭_Exploring-System_Design-58a6ff?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/☁️_Learning-Azure_Cloud-0078D4?style=for-the-badge&labelColor=0d1117"/>
+<br>
+<img src="https://img.shields.io/badge/🚀_Building-Microservices-16213e?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/🧠_Mastering-Clean_Architecture-1a1a2e?style=for-the-badge&labelColor=0d1117"/>
 
 </div>
 
