@@ -77,10 +77,9 @@
 
 <div align="center">
 
-<!-- DARK TROPHIES -->
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
-</a>
+<!-- GITHUB STATS -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=m7mdraafat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c0c0c0&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=m7mdraafat&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1a1a2e&ring=58a6ff&fire=c0c0c0&currStreakNum=ffffff&sideNums=8b949e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak"/>
 
 <br><br>
 
