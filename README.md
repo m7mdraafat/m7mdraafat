@@ -14,6 +14,13 @@
 
 </div>
 
+<!-- 🐍 CONTRIBUTION SNAKE - Eating commits like a pro -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/snake-ocean.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/snake-ocean.svg" />
+  <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/output/snake-ocean.svg" width="100%" />
+</picture>
+
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 

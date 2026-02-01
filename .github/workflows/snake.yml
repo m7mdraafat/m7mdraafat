@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
+    - cron: "0 */6 * * *" # Runs every 6 hours
   workflow_dispatch: # Allows manual trigger
 
 jobs:
@@ -16,13 +16,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      - name: Generate Snake Animation
+      - name: Generate Snake Animation - Ocean Dark Theme
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: m7mdraafat
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#58a6ff&color_dots=#0d1117,#1a1a2e,#16213e,#0f3460,#58a6ff
+            dist/snake-ocean.svg?palette=github-dark&color_snake=#00d9ff&color_dots=#0d1117,#0a192f,#112240,#1d3a6e,#2563eb
+            dist/snake-neon.svg?palette=github-dark&color_snake=#a855f7&color_dots=#0d1117,#1a0a2e,#2d1b4e,#4c1d95,#7c3aed
+            dist/snake-matrix.svg?palette=github-dark&color_snake=#00ff41&color_dots=#0a0a0a,#001a00,#003300,#004d00,#006600
 
       - name: Commit and Push to output branch
         run: |
@@ -33,7 +34,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "🐍 Update snake animation"
+          git commit -m "🐍 Update snake animations with fancy themes"
           git branch -M output
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push -f origin output
