@@ -77,14 +77,14 @@
 
 <div align="center">
 
-<!-- GITHUB STATS -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=m7mdraafat&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c0c0c0&icon_color=58a6ff&text_color=8b949e&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=m7mdraafat&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1a1a2e&ring=58a6ff&fire=c0c0c0&currStreakNum=ffffff&sideNums=8b949e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=6e7681" alt="GitHub Streak"/>
-
-<br><br>
-
-<!-- DARK PROFILE SUMMARY -->
+<!-- PROFILE SUMMARY CARDS - Multiple cards for comprehensive stats -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=m7mdraafat&theme=github_dark" width="100%"/>
+
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=m7mdraafat&theme=github_dark" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=m7mdraafat&theme=github_dark" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=m7mdraafat&theme=github_dark" width="32%"/>
 
 <br><br>
 
