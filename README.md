@@ -78,7 +78,9 @@
 <div align="center">
 
 <!-- DARK TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=m7mdraafat&theme=onestar&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="100%"/>
+</a>
 
 <br><br>
 
