@@ -17,20 +17,6 @@
 <!-- DARK DIVIDER LINE -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="40" /> &nbsp;About Me
-
-<div align="center">
-
-<!-- 🔄 DYNAMIC ABOUT ME - Updates every 6 hours with random styles -->
-<a href="https://github.com/m7mdraafat">
-  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/about-me.svg?v=1769907022" alt="About Me"/>
-</a>
-
-</div>
-
-<!-- DARK DIVIDER LINE -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/dark.png" width="100%">
-
 ## <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="35" /> &nbsp;Achievements & Metrics
 
 <div align="center">
