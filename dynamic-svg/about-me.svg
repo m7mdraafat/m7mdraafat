@@ -1,35 +1,42 @@
-﻿<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
-  <rect x="30" y="20" width="740" height="280" fill="#161b22" rx="12" stroke="#30363d" stroke-width="1"/>
+<svg width="800" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="aboutBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0d"/>
+      <stop offset="100%" style="stop-color:#1a0a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#aboutBg3)" rx="10"/>
   
-  <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="24" font-weight="bold" fill="#58a6ff">About Me</text>
+  <!-- Neon border animation -->
+  <rect x="20" y="15" width="760" height="290" fill="none" rx="10" stroke="#58a6ff" stroke-width="2" opacity="0.5" filter="url(#neon)">
+    <animate attributeName="stroke" values="#58a6ff;#a371f7;#58a6ff" dur="4s" repeatCount="indefinite"/>
+  </rect>
   
-  <rect x="260" y="70" width="280" height="32" fill="#0078d4" fill-opacity="0.2" rx="16" stroke="#0078d4" stroke-width="1"/>
-  <text x="400" y="93" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">Software Engineer Intern @ Microsoft</text>
+  <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="26" font-weight="bold" fill="#ffffff" filter="url(#neon)">About Me</text>
   
-  <text x="200" y="140" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#8b949e">CS @ Tanta University</text>
-  <text x="400" y="140" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#8b949e">Egypt</text>
-  <text x="600" y="140" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#8b949e">Junior Year</text>
+  <rect x="260" y="70" width="280" height="32" fill="transparent" rx="16" stroke="#0078d4" stroke-width="2" filter="url(#neon)"/>
+  <text x="400" y="93" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff" filter="url(#neon)">💼 Software Engineer Intern @ Microsoft</text>
   
-  <text x="100" y="185" font-family="Segoe UI, Arial" font-size="13" fill="#c9d1d9">Backend Development</text>
-  <text x="300" y="185" font-family="Segoe UI, Arial" font-size="13" fill="#c9d1d9">.NET and C#</text>
-  <text x="470" y="185" font-family="Segoe UI, Arial" font-size="13" fill="#c9d1d9">Azure Cloud</text>
-  <text x="630" y="185" font-family="Segoe UI, Arial" font-size="13" fill="#c9d1d9">Problem Solving</text>
+  <text x="200" y="135" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#c9d1d9">🎓 CS @ Tanta University</text>
+  <text x="400" y="135" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#c9d1d9">📍 Egypt 🇪🇬</text>
+  <text x="600" y="135" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#c9d1d9">🔭 Junior Year</text>
   
-  <text x="400" y="225" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" font-weight="bold" fill="#58a6ff">Currently Exploring</text>
+  <text x="100" y="175" font-family="Segoe UI, Arial" font-size="13" fill="#8b949e">💻 Backend Development</text>
+  <text x="300" y="175" font-family="Segoe UI, Arial" font-size="13" fill="#8b949e">🔧 .NET &amp; C#</text>
+  <text x="480" y="175" font-family="Segoe UI, Arial" font-size="13" fill="#8b949e">☁️ Azure Cloud</text>
+  <text x="650" y="175" font-family="Segoe UI, Arial" font-size="13" fill="#8b949e">🧩 Problem Solving</text>
   
-  <rect x="200" y="240" width="80" height="26" fill="#a371f7" fill-opacity="0.2" rx="13" stroke="#a371f7" stroke-width="1"/>
-  <text x="240" y="258" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" fill="#a371f7">DevOps</text>
+  <text x="400" y="215" text-anchor="middle" font-family="Segoe UI, Arial" font-size="16" font-weight="bold" fill="#a371f7" filter="url(#neon)">🚀 Currently Exploring</text>
   
-  <rect x="300" y="240" width="120" height="26" fill="#f78166" fill-opacity="0.2" rx="13" stroke="#f78166" stroke-width="1"/>
-  <text x="360" y="258" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" fill="#f78166">System Design</text>
+  <text x="250" y="250" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#a371f7" filter="url(#neon)">DevOps</text>
+  <text x="400" y="250" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#f78166" filter="url(#neon)">System Design</text>
+  <text x="550" y="250" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#58a6ff" filter="url(#neon)">AI Agents</text>
   
-  <rect x="440" y="240" width="90" height="26" fill="#58a6ff" fill-opacity="0.2" rx="13" stroke="#58a6ff" stroke-width="1"/>
-  <text x="485" y="258" text-anchor="middle" font-family="Segoe UI, Arial" font-size="12" fill="#58a6ff">AI Agents</text>
-  
-  <line x1="50" y1="280" x2="750" y2="280" stroke="#30363d" stroke-width="1"/>
-  
-  <text x="200" y="305" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">66 Followers</text>
-  <text x="400" y="305" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">25 Repositories</text>
-  <text x="600" y="305" text-anchor="middle" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">16 Following</text>
+  <text x="200" y="290" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#58a6ff">👥 66 Followers</text>
+  <text x="400" y="290" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#58a6ff">📦 25 Repos</text>
+  <text x="600" y="290" text-anchor="middle" font-family="Segoe UI, Arial" font-size="13" fill="#58a6ff">⭐ 16 Following</text>
 </svg>
