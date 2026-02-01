@@ -21,52 +21,10 @@
 
 <div align="center">
 
-<!-- VISUAL IDENTITY CARDS -->
-<a href="https://www.microsoft.com"><img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" height="35"/></a>
-<img src="https://img.shields.io/badge/Software_Engineer_Intern-000000?style=for-the-badge" height="35"/>
-<img src="https://img.shields.io/badge/Egypt_🇪🇬-1a1a2e?style=for-the-badge" height="35"/>
-
-<br><br>
-
-<!-- ANIMATED STATUS ICONS -->
-<table>
-<tr>
-<td align="center">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="60"/>
-<br><b>CS Student</b>
-<br><sub>Tanta University</sub>
-</td>
-<td align="center">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="60"/>
-<br><b>.NET Dev</b>
-<br><sub>Full-Stack</sub>
-</td>
-<td align="center">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="60"/>
-<br><b>Backend</b>
-<br><sub>Architecture</sub>
-</td>
-<td align="center">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud.png" width="60"/>
-<br><b>Azure</b>
-<br><sub>Cloud</sub>
-</td>
-<td align="center">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Puzzle%20Piece.png" width="60"/>
-<br><b>Problem</b>
-<br><sub>Solver</sub>
-</td>
-</tr>
-</table>
-
-<br>
-
-<!-- CURRENTLY EXPLORING - VISUAL BADGES -->
-<img src="https://img.shields.io/badge/🔭_Exploring-System_Design-58a6ff?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/☁️_Learning-Azure_Cloud-0078D4?style=for-the-badge&labelColor=0d1117"/>
-<br>
-<img src="https://img.shields.io/badge/🚀_Building-Microservices-16213e?style=for-the-badge&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/🧠_Mastering-Clean_Architecture-1a1a2e?style=for-the-badge&labelColor=0d1117"/>
+<!-- 🔄 DYNAMIC ABOUT ME - Updates every 6 hours with random styles -->
+<a href="https://github.com/m7mdraafat">
+  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/about-me.svg" alt="About Me"/>
+</a>
 
 </div>
 
