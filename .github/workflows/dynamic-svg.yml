@@ -2,7 +2,7 @@ name: Generate Dynamic Profile SVGs
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # Every 10 minutes
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -28,7 +28,6 @@ jobs:
 
           const username = 'm7mdraafat';
 
-          // Fetch GitHub user data
           function fetchGitHubData() {
             return new Promise((resolve, reject) => {
               const options = {
@@ -36,7 +35,6 @@ jobs:
                 path: `/users/${username}`,
                 headers: { 'User-Agent': 'GitHub-Profile-Generator' }
               };
-              
               https.get(options, (res) => {
                 let data = '';
                 res.on('data', chunk => data += chunk);
@@ -45,17 +43,14 @@ jobs:
             });
           }
 
-          // Style 1: Floating Particles
           function styleParticles(userData, greeting) {
-            return `
-          <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+            return `<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style="stop-color:#0d1117"/>
                 <stop offset="50%" style="stop-color:#1a1a2e"/>
                 <stop offset="100%" style="stop-color:#16213e"/>
               </linearGradient>
-              <filter id="glow"><feGaussianBlur stdDeviation="2"/></filter>
             </defs>
             <rect width="100%" height="100%" fill="url(#bg1)" rx="10"/>
             <circle cx="50" cy="50" r="2" fill="#58a6ff" opacity="0.6">
@@ -81,19 +76,15 @@ jobs:
           </svg>`;
           }
 
-          // Style 2: Matrix Rain
           function styleMatrix(userData, greeting) {
             let drops = '';
             for (let i = 0; i < 20; i++) {
               const x = 30 + i * 40;
-              const delay = Math.random() * 3;
-              const dur = 2 + Math.random() * 2;
-              drops += \`<text x="\${x}" y="-20" font-family="monospace" font-size="14" fill="#00ff41" opacity="0.3">
-                01<animate attributeName="y" values="-20;200" dur="\${dur}s" begin="\${delay}s" repeatCount="indefinite"/>
-              </text>\`;
+              const delay = Math.floor(Math.random() * 3);
+              const dur = 2 + Math.floor(Math.random() * 2);
+              drops += '<text x="' + x + '" y="-20" font-family="monospace" font-size="14" fill="#00ff41" opacity="0.3">01<animate attributeName="y" values="-20;200" dur="' + dur + 's" begin="' + delay + 's" repeatCount="indefinite"/></text>';
             }
-            return \`
-          <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+            return `<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
                 <stop offset="0%" style="stop-color:#0a0a0a"/>
@@ -101,20 +92,18 @@ jobs:
               </linearGradient>
             </defs>
             <rect width="100%" height="100%" fill="url(#bg2)" rx="10"/>
-            \${drops}
+            ${drops}
             <rect x="100" y="30" width="600" height="120" fill="#0a0a0a" fill-opacity="0.8" rx="8"/>
-            <text x="400" y="70" text-anchor="middle" font-family="Courier New, monospace" font-size="32" font-weight="bold" fill="#00ff41">\${greeting}! I'm Mohamed Raafat</text>
+            <text x="400" y="70" text-anchor="middle" font-family="Courier New, monospace" font-size="32" font-weight="bold" fill="#00ff41">${greeting}! I'm Mohamed Raafat</text>
             <text x="400" y="105" text-anchor="middle" font-family="Courier New, monospace" font-size="16" fill="#00aa30">Software Engineer Intern @ Microsoft | .NET Developer</text>
-            <text x="200" y="140" font-family="monospace" font-size="13" fill="#00ff41">👥 \${userData.followers}</text>
-            <text x="350" y="140" font-family="monospace" font-size="13" fill="#00ff41">📦 \${userData.public_repos}</text>
-            <text x="500" y="140" font-family="monospace" font-size="13" fill="#00ff41">⭐ \${userData.following}</text>
-          </svg>\`;
+            <text x="200" y="140" font-family="monospace" font-size="13" fill="#00ff41">👥 ${userData.followers}</text>
+            <text x="350" y="140" font-family="monospace" font-size="13" fill="#00ff41">📦 ${userData.public_repos}</text>
+            <text x="500" y="140" font-family="monospace" font-size="13" fill="#00ff41">⭐ ${userData.following}</text>
+          </svg>`;
           }
 
-          // Style 3: Aurora Waves
           function styleAurora(userData, greeting) {
-            return \`
-          <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+            return `<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style="stop-color:#0d1117">
@@ -135,27 +124,26 @@ jobs:
             <path d="M0,150 Q200,120 400,150 T800,150 L800,180 L0,180 Z" fill="#58a6ff" opacity="0.15">
               <animate attributeName="d" values="M0,150 Q200,120 400,150 T800,150 L800,180 L0,180 Z;M0,150 Q200,170 400,130 T800,150 L800,180 L0,180 Z;M0,150 Q200,120 400,150 T800,150 L800,180 L0,180 Z" dur="3s" repeatCount="indefinite"/>
             </path>
-            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">\${greeting}! I'm Mohamed Raafat</text>
+            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">${greeting}! I'm Mohamed Raafat</text>
             <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#c0c0c0">Software Engineer Intern @ Microsoft | .NET Developer</text>
-            <text x="200" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 \${userData.followers} followers</text>
-            <text x="400" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 \${userData.public_repos} repos</text>
-            <text x="580" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ \${userData.following} following</text>
-          </svg>\`;
+            <text x="200" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 ${userData.followers} followers</text>
+            <text x="400" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 ${userData.public_repos} repos</text>
+            <text x="580" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ ${userData.following} following</text>
+          </svg>`;
           }
 
-          // Style 4: Geometric Hexagons
           function styleHexagon(userData, greeting) {
             let hexagons = '';
             const positions = [[50,40],[120,80],[700,50],[750,120],[380,150],[620,30]];
-            positions.forEach(([x,y], i) => {
-              const size = 15 + Math.random() * 10;
-              const opacity = 0.1 + Math.random() * 0.2;
-              hexagons += \`<polygon points="\${x},\${y-size} \${x+size*0.866},\${y-size/2} \${x+size*0.866},\${y+size/2} \${x},\${y+size} \${x-size*0.866},\${y+size/2} \${x-size*0.866},\${y-size/2}" fill="none" stroke="#58a6ff" stroke-width="1" opacity="\${opacity}">
-                <animate attributeName="opacity" values="\${opacity};\${opacity+0.2};\${opacity}" dur="\${2+i*0.5}s" repeatCount="indefinite"/>
-              </polygon>\`;
+            positions.forEach(function(pos, i) {
+              const x = pos[0];
+              const y = pos[1];
+              const size = 15 + Math.floor(Math.random() * 10);
+              const opacity = (0.1 + Math.random() * 0.2).toFixed(2);
+              const dur = 2 + i * 0.5;
+              hexagons += '<polygon points="' + x + ',' + (y-size) + ' ' + (x+size*0.866) + ',' + (y-size/2) + ' ' + (x+size*0.866) + ',' + (y+size/2) + ' ' + x + ',' + (y+size) + ' ' + (x-size*0.866) + ',' + (y+size/2) + ' ' + (x-size*0.866) + ',' + (y-size/2) + '" fill="none" stroke="#58a6ff" stroke-width="1" opacity="' + opacity + '"><animate attributeName="opacity" values="' + opacity + ';' + (parseFloat(opacity)+0.2) + ';' + opacity + '" dur="' + dur + 's" repeatCount="indefinite"/></polygon>';
             });
-            return \`
-          <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+            return `<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style="stop-color:#0d1117"/>
@@ -163,19 +151,17 @@ jobs:
               </linearGradient>
             </defs>
             <rect width="100%" height="100%" fill="url(#bg4)" rx="10"/>
-            \${hexagons}
-            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">\${greeting}! I'm Mohamed Raafat</text>
+            ${hexagons}
+            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">${greeting}! I'm Mohamed Raafat</text>
             <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#8b949e">Software Engineer Intern @ Microsoft | .NET Developer</text>
-            <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 \${userData.followers} followers</text>
-            <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 \${userData.public_repos} repos</text>
-            <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ \${userData.following} following</text>
-          </svg>\`;
+            <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 ${userData.followers} followers</text>
+            <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 ${userData.public_repos} repos</text>
+            <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ ${userData.following} following</text>
+          </svg>`;
           }
 
-          // Style 5: Pulse Rings
           function stylePulse(userData, greeting) {
-            return \`
-          <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+            return `<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style="stop-color:#0d1117"/>
@@ -195,39 +181,34 @@ jobs:
               <animate attributeName="r" values="30;100;30" dur="5s" repeatCount="indefinite"/>
               <animate attributeName="opacity" values="0.2;0;0.2" dur="5s" repeatCount="indefinite"/>
             </circle>
-            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">\${greeting}! I'm Mohamed Raafat</text>
+            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">${greeting}! I'm Mohamed Raafat</text>
             <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#8b949e">Software Engineer Intern @ Microsoft | .NET Developer</text>
-            <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 \${userData.followers} followers</text>
-            <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 \${userData.public_repos} repos</text>
-            <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ \${userData.following} following</text>
-          </svg>\`;
+            <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 ${userData.followers} followers</text>
+            <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 ${userData.public_repos} repos</text>
+            <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ ${userData.following} following</text>
+          </svg>`;
           }
 
-          // Style 6: Starfield
           function styleStarfield(userData, greeting) {
             let stars = '';
             for (let i = 0; i < 30; i++) {
-              const x = Math.random() * 800;
-              const y = Math.random() * 180;
-              const size = 0.5 + Math.random() * 1.5;
-              const dur = 1 + Math.random() * 2;
-              stars += \`<circle cx="\${x}" cy="\${y}" r="\${size}" fill="#ffffff" opacity="0.4">
-                <animate attributeName="opacity" values="0.4;0.8;0.4" dur="\${dur}s" repeatCount="indefinite"/>
-              </circle>\`;
+              const x = Math.floor(Math.random() * 800);
+              const y = Math.floor(Math.random() * 180);
+              const size = (0.5 + Math.random() * 1.5).toFixed(1);
+              const dur = (1 + Math.random() * 2).toFixed(1);
+              stars += '<circle cx="' + x + '" cy="' + y + '" r="' + size + '" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="' + dur + 's" repeatCount="indefinite"/></circle>';
             }
-            return \`
-          <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+            return `<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
             <rect width="100%" height="100%" fill="#0a0a1a" rx="10"/>
-            \${stars}
-            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">\${greeting}! I'm Mohamed Raafat</text>
+            ${stars}
+            <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">${greeting}! I'm Mohamed Raafat</text>
             <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#a0a0b0">Software Engineer Intern @ Microsoft | .NET Developer</text>
-            <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">👥 \${userData.followers} followers</text>
-            <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">📦 \${userData.public_repos} repos</text>
-            <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">⭐ \${userData.following} following</text>
-          </svg>\`;
+            <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">👥 ${userData.followers} followers</text>
+            <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">📦 ${userData.public_repos} repos</text>
+            <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">⭐ ${userData.following} following</text>
+          </svg>`;
           }
 
-          // Generate header with random style
           function generateHeaderSVG(userData) {
             const now = new Date();
             const hour = (now.getUTCHours() + 2) % 24;
@@ -236,7 +217,7 @@ jobs:
             const styles = [styleParticles, styleMatrix, styleAurora, styleHexagon, stylePulse, styleStarfield];
             const randomStyle = styles[Math.floor(Math.random() * styles.length)];
             
-            console.log(\`🎨 Selected style: \${randomStyle.name}\`);
+            console.log('🎨 Selected style: ' + randomStyle.name);
             return randomStyle(userData, greeting);
           }
 
@@ -251,7 +232,7 @@ jobs:
               fs.writeFileSync('dynamic-svg/header.svg', generateHeaderSVG(userData));
               
               console.log('✅ Header SVG generated successfully!');
-              console.log(\`📊 User: \${userData.login}\`);
+              console.log('📊 User: ' + userData.login);
             } catch (error) {
               console.error('Error:', error);
               process.exit(1);
