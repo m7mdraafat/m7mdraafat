@@ -2,7 +2,7 @@
 
 <!-- 🔄 DYNAMIC HEADER - Updates every 6 hours with live stats & time-based greeting -->
 <a href="https://github.com/m7mdraafat">
-  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg?v=1769906750" alt="Dynamic Header"/>
+  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg?v=1769907022" alt="Dynamic Header"/>
 </a>
 
 <br>
@@ -23,7 +23,7 @@
 
 <!-- 🔄 DYNAMIC ABOUT ME - Updates every 6 hours with random styles -->
 <a href="https://github.com/m7mdraafat">
-  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/about-me.svg?v=1769906750" alt="About Me"/>
+  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/about-me.svg?v=1769907022" alt="About Me"/>
 </a>
 
 </div>
