@@ -2,7 +2,7 @@
 
 <!-- 🔄 DYNAMIC HEADER - Updates every 6 hours with live stats & time-based greeting -->
 <a href="https://github.com/m7mdraafat">
-  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg?v=1770124617" alt="Dynamic Header"/>
+  <img width="100%" src="https://raw.githubusercontent.com/m7mdraafat/m7mdraafat/master/dynamic-svg/header.svg?v=1770145461" alt="Dynamic Header"/>
 </a>
 
 <br>
