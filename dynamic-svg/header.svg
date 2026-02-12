@@ -1,27 +1,15 @@
 <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#1a1a2e;#0d1117" dur="5s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" style="stop-color:#1e3a5f">
-        <animate attributeName="stop-color" values="#1e3a5f;#2d5a87;#1e3a5f" dur="5s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#0f3460">
-        <animate attributeName="stop-color" values="#0f3460;#1a4a7a;#0f3460" dur="5s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
     </linearGradient>
   </defs>
-  <rect width="100%" height="100%" fill="url(#aurora)" rx="10"/>
-  <path d="M0,140 Q200,100 400,140 T800,140 L800,180 L0,180 Z" fill="#58a6ff" opacity="0.1">
-    <animate attributeName="d" values="M0,140 Q200,100 400,140 T800,140 L800,180 L0,180 Z;M0,140 Q200,160 400,120 T800,140 L800,180 L0,180 Z;M0,140 Q200,100 400,140 T800,140 L800,180 L0,180 Z" dur="4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0,150 Q200,120 400,150 T800,150 L800,180 L0,180 Z" fill="#58a6ff" opacity="0.15">
-    <animate attributeName="d" values="M0,150 Q200,120 400,150 T800,150 L800,180 L0,180 Z;M0,150 Q200,170 400,130 T800,150 L800,180 L0,180 Z;M0,150 Q200,120 400,150 T800,150 L800,180 L0,180 Z" dur="3s" repeatCount="indefinite"/>
-  </path>
-  <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">Good Evening! I'm Mohamed Raafat</text>
-  <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#c0c0c0">Software Engineer Intern @ Microsoft | .NET Developer</text>
-  <text x="200" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 73 followers</text>
-  <text x="400" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 26 repos</text>
-  <text x="580" y="125" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ 16 following</text>
+  <rect width="100%" height="100%" fill="url(#bg4)" rx="10"/>
+  <polygon points="50,22 65.588,31 65.588,49 50,58 34.412,49 34.412,31" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.19"><animate attributeName="opacity" values="0.19;0.39;0.19" dur="2s" repeatCount="indefinite"/></polygon><polygon points="120,56 140.784,68 140.784,92 120,104 99.21600000000001,92 99.21600000000001,68" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.17"><animate attributeName="opacity" values="0.17;0.37;0.17" dur="2.5s" repeatCount="indefinite"/></polygon><polygon points="700,30 717.32,40 717.32,60 700,70 682.68,60 682.68,40" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.24"><animate attributeName="opacity" values="0.24;0.44;0.24" dur="3s" repeatCount="indefinite"/></polygon><polygon points="750,98 769.052,109 769.052,131 750,142 730.948,131 730.948,109" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.27"><animate attributeName="opacity" values="0.27;0.47000000000000003;0.27" dur="3.5s" repeatCount="indefinite"/></polygon><polygon points="380,130 397.32,140 397.32,160 380,170 362.68,160 362.68,140" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.24"><animate attributeName="opacity" values="0.24;0.44;0.24" dur="4s" repeatCount="indefinite"/></polygon><polygon points="620,15 632.99,22.5 632.99,37.5 620,45 607.01,37.5 607.01,22.5" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.19"><animate attributeName="opacity" values="0.19;0.39;0.19" dur="4.5s" repeatCount="indefinite"/></polygon>
+  <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">Good Morning! I'm Mohamed Raafat</text>
+  <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#8b949e">Software Engineer Intern @ Microsoft | .NET Developer</text>
+  <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 73 followers</text>
+  <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 26 repos</text>
+  <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ 16 following</text>
 </svg>
