@@ -1,9 +1,30 @@
 <svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#0a0a1a" rx="10"/>
-  <circle cx="229" cy="35" r="1.6" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.3s" repeatCount="indefinite"/></circle><circle cx="155" cy="111" r="0.8" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="190" cy="157" r="0.8" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/></circle><circle cx="602" cy="176" r="1.8" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="177" cy="158" r="0.7" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.3s" repeatCount="indefinite"/></circle><circle cx="433" cy="162" r="0.9" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.1s" repeatCount="indefinite"/></circle><circle cx="630" cy="111" r="1.3" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.3s" repeatCount="indefinite"/></circle><circle cx="13" cy="86" r="1.9" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.0s" repeatCount="indefinite"/></circle><circle cx="699" cy="130" r="0.9" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.7s" repeatCount="indefinite"/></circle><circle cx="205" cy="7" r="0.7" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="280" cy="90" r="0.7" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="76" cy="117" r="1.7" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="396" cy="78" r="1.4" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.6s" repeatCount="indefinite"/></circle><circle cx="103" cy="149" r="0.6" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="708" cy="60" r="0.7" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.9s" repeatCount="indefinite"/></circle><circle cx="593" cy="33" r="0.8" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.1s" repeatCount="indefinite"/></circle><circle cx="373" cy="129" r="1.4" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.7s" repeatCount="indefinite"/></circle><circle cx="44" cy="98" r="1.1" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.3s" repeatCount="indefinite"/></circle><circle cx="554" cy="73" r="1.5" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.9s" repeatCount="indefinite"/></circle><circle cx="462" cy="82" r="0.6" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.6s" repeatCount="indefinite"/></circle><circle cx="261" cy="161" r="1.5" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.7s" repeatCount="indefinite"/></circle><circle cx="620" cy="126" r="1.4" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="287" cy="114" r="0.9" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="120" cy="74" r="1.5" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.0s" repeatCount="indefinite"/></circle><circle cx="260" cy="145" r="1.8" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.1s" repeatCount="indefinite"/></circle><circle cx="361" cy="93" r="1.4" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.0s" repeatCount="indefinite"/></circle><circle cx="375" cy="24" r="1.2" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="623" cy="24" r="2.0" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.4s" repeatCount="indefinite"/></circle><circle cx="518" cy="112" r="1.8" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.4s" repeatCount="indefinite"/></circle><circle cx="113" cy="155" r="1.4" fill="#ffffff" opacity="0.4"><animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
-  <text x="400" y="55" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">Good Evening! I'm Mohamed Raafat</text>
-  <text x="400" y="90" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#a0a0b0">Software Engineer Intern @ Microsoft | .NET Developer</text>
-  <text x="200" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">👥 72 followers</text>
-  <text x="400" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">📦 31 repos</text>
-  <text x="580" y="130" font-family="Segoe UI, Arial" font-size="14" fill="#7aa2f7">⭐ 18 following</text>
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg1)" rx="10"/>
+  <circle cx="50" cy="50" r="2" fill="#58a6ff" opacity="0.6">
+    <animate attributeName="cy" values="50;130;50" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="90" r="1.5" fill="#58a6ff" opacity="0.4">
+    <animate attributeName="cy" values="90;30;90" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="70" r="2" fill="#58a6ff" opacity="0.5">
+    <animate attributeName="cy" values="70;150;70" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="100" r="1" fill="#c0c0c0" opacity="0.4">
+    <animate attributeName="cy" values="100;40;100" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="30" r="1.5" fill="#58a6ff" opacity="0.3">
+    <animate attributeName="cy" values="30;160;30" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="400" y="60" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="bold" fill="#ffffff">Good Morning! I'm Mohamed Raafat</text>
+  <text x="400" y="100" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#8b949e">Software Engineer Intern @ Microsoft | .NET Developer</text>
+  <text x="200" y="145" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">👥 72 followers</text>
+  <text x="350" y="145" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">📦 31 repos</text>
+  <text x="500" y="145" font-family="Segoe UI, Arial" font-size="14" fill="#58a6ff">⭐ 18 following</text>
 </svg>
